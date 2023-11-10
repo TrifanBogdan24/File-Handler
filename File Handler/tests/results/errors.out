@@ -1,0 +1,237 @@
+Test chmod_add_multiple.sh
+
+
+Test chmod_add_one.sh
+
+
+Test chmod_all.sh
+
+
+Test chmod_del_multiple.sh
+
+
+Test chmod_del_one.sh
+
+
+Test chmod_number.sh
+
+
+Test chmod_user_group.sh
+
+
+Test pwd.sh
+
+
+Test echo_multiple.sh
+
+
+Test echo_nodescription.sh
+
+
+Test echo_shell.sh
+
+
+Test grep_simple.sh
+
+
+Test ls_all_r.sh
+
+
+Test ls_all.sh
+
+
+Test ls_dir.sh
+
+
+Test ls_err.sh
+
+
+Test ls_file.sh
+
+
+Test ls_l_r.sh
+
+
+Test ls_l.sh
+
+
+Test ls_r.sh
+
+
+Test ls_simple.sh
+
+
+Test invalid_chmod.sh
+
+
+Test invalid_command.sh
+
+
+Test invalid_parameters2.sh
+
+
+Test invalid_parameters.sh
+
+
+Test cp_error_dir.sh
+
+
+Test cp_error_file.sh
+
+
+Test cp_rename_dir.sh
+
+
+Test cp_r_file.sh
+
+
+Test cp_r.sh
+
+
+Test cp_simple_file.sh
+
+
+Test cp_simple_rename.sh
+
+
+Test rm_cascade.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rm_dir.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rm_empty_dir.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rm_error_dir.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rm_error_exists.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rm_file.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rm_multiple_files.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rm_multiple_mixed.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rm_recursive.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test cat_error.sh
+
+
+Test cat_simple.sh
+
+
+Test cat_triple.sh
+
+
+Test mkdir_error.sh
+
+
+Test mkdir_multiple.sh
+
+
+Test mkdir_path_multiple.sh
+
+
+Test mkdir_path.sh
+
+
+Test mkdir_simple.sh
+
+
+Test mkdir_spaces.sh
+
+
+Test rmdir_empty_error.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rmdir_exists_error.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rmdir_link.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rmdir_multiple.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test rmdir_simple.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test touch_a.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test touch_m.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test touch_no_create_new.sh
+
+
+Test touch_simple_exists.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test touch_simple.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test ln_error.sh
+
+
+Test ln_simple.sh
+
+
+Test ln_s.sh
+
+
+Test ln_symbolic.sh
+
+
+Test echo_multiple.sh
+
+
+Test echo_newline_multiple.sh
+
+
+Test echo_newline_simple.sh
+
+
+Test echo_simple.sh
+
+
+Test echo_spaces.sh
+
+
+Test mv_dir.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test mv_error.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
+Test mv_simple.sh
+python3: can't open file '/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/../../../src/main.py': [Errno 2] No such file or directory
+
+
