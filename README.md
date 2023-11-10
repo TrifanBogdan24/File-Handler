@@ -60,14 +60,14 @@ Comenzile suportate de programul scris in Python sunt:
 
   - **-n** - cu acest parametru nu vom adauga o linie noua la final
 
-  *Exemplu*
+*Exemplu*
 
-      ```
-      $ python3 main.py echo a b c
-      a b c
-      $ python3 main.py echo -n a b c
-      a b c$
-      ```
+    ```
+    $ python3 main.py echo a b c
+    a b c
+    $ python3 main.py echo -n a b c
+    a b c$
+    ```
 
 - **cat nume_fisiere** - Concateneaza continutul fisierelor si il afiseaza la iesirea standard [doc](https://linux.die.net/man/1/cat). In caz de eroare va intoarce valoarea -20 (valoarea 236 va fi afisat in terminal)
 
@@ -121,11 +121,11 @@ In caz de eroare se va intoarce va intoarce valoarea -50 (valoarea 206 va fi afi
 In caz de eroare se va intoarce va intoarce valoarea -60 (valoarea 196 va fi afisata in terminal)
 
 
-  *Exemplu*
-    ```
-    python3 main.py rmdir my_empty_directory
-    python3 main.py rmdir my_empty_directory1 my_empty_directory2
-    ```
+*Exemplu*
+  ```
+  python3 main.py rmdir my_empty_directory
+  python3 main.py rmdir my_empty_directory1 my_empty_directory2
+  ```
 
 
 - **rm [options] fichiere/directoare** - Sterge directoarele pasate ca argumente. Fara optiuni,
@@ -135,11 +135,11 @@ sterge doar fisierele si va returna valoarea -70 (valoarea 186 va fi afisata in 
   - -r, -R, –recursive - sterge directoarele si continutul lor
   - -d, –dir - sterge directoarele fara continut
 
-  *Exemplu*
-      ```
-      python3 main.py rm my_file1 my_file2
-      python3 main.py rm -R my_directory
-      ```
+*Exemplu*
+  ```
+  python3 main.py rm my_file1 my_file2
+  python3 main.py rm -R my_directory
+  ```
 
 
 
@@ -155,26 +155,26 @@ In caz de eroare se va intoarce va intoarce valoarea -80 (valoarea 176 va fi afi
     fisierele/directoarele care nu se gasesc direct in punctul citirii, va afisa calea absoluta,
     ex: output/test/file.
 
-    *Exemplu*
-        ```
-        $ ./main.py ls
-        directory1
-        Directory2
-        File1
-        file2
+*Exemplu*
+  ```
+  $ ./main.py ls
+  directory1
+  Directory2
+  File1
+  file2
 
-        $ ./main.py ls -a
-        .
-        ..
-        directory1
-        Directory2
-        File1
-        File2
+  $ ./main.py ls -a
+  .
+  ..
+  directory1
+  Directory2
+  File1
+  File2
 
-        $ ./main.py ls Directory2
-        f1
-        f2
-        ```
+  $ ./main.py ls Directory2
+  f1
+  f2
+  ```
 
 
 - **cp [option] sursa destinatie** - Copiaza un fisier sau director de la sursa la destinatie. Daca
@@ -184,12 +184,11 @@ In caz de eroare se va intoarce va intoarce valoarea -90 (valoarea 166 va fi afi
   - -R, -r, –recursive - copiaza in mod recursiv; se utilizeaza pentru a copia directoare cu tot
     continutul lor
 
-  *Exemplu*
-
-      ```
-      ./main.py cp my_file my_directory
-      ./main.py cp -r my_directory1 my_directory2
-      ```
+*Exemplu*
+  ```
+  ./main.py cp my_file my_directory
+  ./main.py cp -r my_directory1 my_directory2
+  ```
 
 
 - **touch [options] fisier** -Actualizeaza data si ora de acces si modificare a fisierului la ora si
@@ -198,17 +197,15 @@ daca fisierul nu exista, il creeaza la momentul executiei programului [doc](http
 In caz de eroare se va intoarce va intoarce valoarea -100 (valoarea 156 va fi afisata in terminal).
 
   - -a - schimba doar data si ora accesului
-
   - -c, –no-creat - nu creeaza fisierul daca nu exista
-
   - -m - schimba doar data si ora modificarii
 
-  *Exemplu*
+*Exemplu*
 
-    ```
-    ./main.py touch my_file
-    ./main.py touch -a --no-create my_file
-    ```
+  ```
+  ./main.py touch my_file
+  ./main.py touch -a --no-create my_file
+  ```
 
 - **chmod permisiuni fisier/director** - Schimba bitii de permisiune (rwx) al unui fisier/director [doc](https://linux.die.net/man/1/chmod).
 In caz de eroare se va intoarce va intoarce valoarea -25 (valoarea 231 va fi afisata in terminal).
@@ -220,40 +217,38 @@ Permisiunile pot fi specificate in 2 moduri:
   others putem adauga sau sterge permisiuni. Categoriile sunt u - user, g - group, o -
   other, a - all. Formatul generic este: **u/g/o/a +/- r/w/x**.
 
-  *Exemplu*
-      ```
-      ./main.py chmod 570 file
-      ./main.py chmod u+x file
-      ./main.py chmod ug+rx file
-      ./main.py chmod a-rx file
-      ```
+*Exemplu*
+  ```
+  ./main.py chmod 570 file
+  ./main.py chmod u+x file
+  ./main.py chmod ug+rx file
+  ./main.py chmod a-rx file
+  ```
 
 
 ## **Bonus**
 
 - **grep [-i] regex nume\_fisier** - Returneaza toate liniile fisierului care contin expresia regulata.
+  - -i - Returneaza toate liniile fisierului care **nu** contin expresia regulata.
 
-    - -i - Returneaza toate liniile fisierului care **nu** contin expresia regulata.
-
-    *Exemplu*
-        ```
-        $ ./main.py grep '[0-9]+' File
-        this line 99
-        this line is another 7
-        ```
+*Exemplu*
+  ```
+  $ ./main.py grep '[0-9]+' File
+  this line 99
+  this line is another 7
+  ```
 
 - **ls**
-    - -l - Afiseaza toate informatiile legate de fisiere
+  - -l - Afiseaza toate informatiile legate de fisiere
 
-    *Exemplu*
+*Exemplu*
 
+  ```
+  $ ./main.py ls -l
+  drwxr-xr-x alexandru staff 960 Feb 12 22:40 Desktop
+  -rw-r--r-- alexandru staff 372944 Nov 29 2020 Title Hello Wyliodrin STUDIO
+  \# file\_type (-, l - link, d - directory) properties user group size modified
 
-        ```
-        $ ./main.py ls -l
-        drwxr-xr-x alexandru staff 960 Feb 12 22:40 Desktop
-        -rw-r--r-- alexandru staff 372944 Nov 29 2020 Title Hello Wyliodrin STUDIO
-        \# file\_type (-, l - link, d - directory) properties user group size modified
-
-        $ ./main.py ls -l Desktop
-        drwxr-xr-x alexandru staff 960 Feb 12 22:40 Desktop
-        ```
+  $ ./main.py ls -l Desktop
+  drwxr-xr-x alexandru staff 960 Feb 12 22:40 Desktop
+  ```
