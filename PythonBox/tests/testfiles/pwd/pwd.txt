@@ -1,1 +1,1 @@
-/home/bogdan/Documents/INFORMATICĂ/Python/pythonbox/tests/verify/pwd
+/home/bogdan/Documents/INFORMATICA/Python/File Handler/PythonBox/tests/verify/pwd

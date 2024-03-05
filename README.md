@@ -214,7 +214,7 @@ Permisiunile pot fi specificate in 2 moduri:
   i. numeric: un numar format din 3 cifre, fiecare reprezantand o valoare pe 3 biti: ex: 650
 
   ii. adaugand/stergand permisiuni specifice: pentru fiecare din cele 3 categorii (user, group
-  others putem adauga sau sterge permisiuni. Categoriile sunt u - user, g - group, o -
+  others) putem adauga sau sterge permisiuni. Categoriile sunt u - user, g - group, o -
   other, a - all. Formatul generic este: **u/g/o/a +/- r/w/x**.
 
   *Exemplu*
